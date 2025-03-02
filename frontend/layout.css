@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  margin-left: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+section {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
