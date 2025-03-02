@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akıllı Asistan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1></h1>
+      <button>Paylaş</button>
+      <button>Ayarlar</button>
+    </header>
+
+    <main>
+      <section class="sources">
+        <h2>Kaynaklar</h2>
+        <button>+ Kaynak ekle</button>
+        <p>
+          Kayıtlı kaynaklar burada gösterilir. PDF, web sitesi, metin, video
+          veya ses dosyası eklemek için yukarıdaki 'Kaynak ekle' düğmesini
+          tıklayın.
+        </p>
+      </section>
+
+      <section class="chat">
+        <h2>Sohbet</h2>
+        <p>Başlamak için kaynak ekleyin</p>
+        <button>Kaynak yükleyin</button>
+        <p>Başlamak için bir kaynak yükleyin</p>
+        <p>
+          NotebookLM yanlış bilgiler gösterebilir. Bu nedenle, verdiği yanıtları
+          doğrulayın.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; } header {
+display: flex; justify-content: space-between; align-items: center;
+background-color: #f4f4f4; padding: 10px; } header h1 { margin: 0; } .buttons {
+display: flex; } .buttons button { margin-left: 10px; } main { display: flex;
+justify-content: space-around; padding: 20px; } section { flex: 1; margin: 10px;
+padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color:
+#fff; } section h2 { margin-top: 0; } button { display: block; margin-top: 10px;
+} p { margin: 10px 0; }
